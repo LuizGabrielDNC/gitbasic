@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <style scoped="">
+            .button-success,
+            .button-error,
+            .button-warning,
+            .button-secondary {
+                color: white;
+                border-radius: 4px;
+                text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            }
+    
+            .button-success {
+                background: rgb(28, 184, 65);
+                /* this is a green */
+            }
+    
+            .button-error {
+                background: rgb(202, 60, 60);
+                /* this is a maroon */
+            }
+    
+            .button-warning {
+                background: rgb(223, 117, 20);
+                /* this is an orange */
+            }
+    
+            .button-secondary {
+                background: rgb(66, 184, 221);
+                /* this is a light blue */
+            }
+        </style>
+        <button class="button-success pure-button">Success Button</button>
+        <button class="button-error pure-button">Error Button</button>
+        <button class="button-warning pure-button">Warning Button</button>
+        <button class="button-secondary pure-button">Secondary Button</button>
+    </div>
+
+    <form class="pure-form">
+        <fieldset class="pure-group">
+            <input type="text" class="pure-input-1-2" placeholder="Username" />
+            <input type="text" class="pure-input-1-2" placeholder="Password" />
+            <input type="email" class="pure-input-1-2" placeholder="Email" />
+        </fieldset>
+        <fieldset class="pure-group">
+            <input type="text" class="pure-input-1-2" placeholder="A title" />
+            <textarea class="pure-input-1-2" placeholder="Textareas work too"></textarea>
+        </fieldset>
+        <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Sign in</button>
+    </form>
+</body>
+</html>
